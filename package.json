@@ -1,0 +1,29 @@
+{
+  "name": "conf-apollo",
+  "version": "0.0.1",
+  "description": "携程apollo配置agent",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samkenhuang/conf-apollo.git"
+  },
+  "keywords": [
+    "apollo"
+  ],
+  "author": "huangxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samkenhuang/conf-apollo/issues"
+  },
+  "homepage": "https://github.com/samkenhuang/conf-apollo#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "node-apollo": "^1.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
