@@ -20,8 +20,7 @@
   },
   "homepage": "https://github.com/samkenhuang/conf-apollo#readme",
   "devDependencies": {
-    "mocha": "^5.2.0",
-    "node-apollo": "^1.2.1"
+    "mocha": "^5.2.0"
   },
   "dependencies": {
     "axios": "^0.18.0"
