@@ -1,5 +1,5 @@
 # conf-apollo
-携程apollo node client
+[携程apollo](https://github.com/ctripcorp/apollo) node client
 
 ## 使用方法
 启动一个agent,此agent负责从apollo中同步配置到指定的文件目录
@@ -9,9 +9,12 @@ const config = {
     appId: '24',
     clusterName: 'default',
     namespaceName: [ 'fbcore' ],
+    //缓存文件地址
     cachedFileDir: `${__dirname}`,
-    interval: 1000
+    // 同步时间间隔
+    interval: 10000
 }
 
+// 开启agent, 定时同步配置
 new apollo(config)
 ```

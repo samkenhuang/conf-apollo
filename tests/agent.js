@@ -7,7 +7,7 @@ const config = {
     clusterName: 'default',
     namespaceName: [ 'fbcore' ],
     cachedFileDir: `${__dirname}`,
-    interval: 1000
+    interval: 10000
 }
 
 new apollo(config)
