@@ -15,7 +15,7 @@ const config = {
     configServerUrl: 'http://192.168.100.184:8090',
     appId: '24',
     clusterName: 'default',
-    namespaceName: [ 'fbcore' ],
+    namespaceNames: [ 'fbcore' ],
     //缓存文件地址
     cachedFileDir: `${__dirname}`,
     // 同步时间间隔
